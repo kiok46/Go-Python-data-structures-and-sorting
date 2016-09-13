@@ -38,13 +38,9 @@ func (s *stack)push(value int){
 }
 
 
-func (s *stack)push(value string){
-    s.list = append(s.list, value)
-}
-
-
 func (s *stack)pop() []int{
-    return s.list[:len(s.list)-1]
+    s.list = s.list[:len(s.list)-1]
+    return s.list
 }
 
 
