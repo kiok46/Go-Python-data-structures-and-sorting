@@ -2,6 +2,8 @@
 Implementation of queue using list in python.
 
 Operations are O(1)
+
+`python queue.py`
 '''
 
 class Queue():

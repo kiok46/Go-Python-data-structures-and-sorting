@@ -11,7 +11,7 @@ Data Structures
 | ------------- |:---------:|:-----:|:------:
 | Stack         | X         | X     |  X  
 | Queue         | X         | X     |  X  
-
+| Linked List   | X         | X     |  X
 
 Sorting Algorithms
 ------------------
