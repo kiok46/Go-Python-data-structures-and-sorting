@@ -3,10 +3,14 @@ matrix:
   include:
     - language: python
       python: 2.7
+      script:
+      - nosetests
+      after_success:
+      - coveralls
     - language: go
       go: 1.3
-
-script:
-- nosetests
-after_success:
-- coveralls
+      notificaitons:
+      email:
+        recipients: your.email@host.com
+        on_success: change
+        on_failure: always
