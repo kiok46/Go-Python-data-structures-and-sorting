@@ -11,6 +11,6 @@ matrix:
       go: 1.3
       notificaitons:
       email:
-        recipients: your.email@host.com
+        recipients: kuldeepbb.grewal@gmail.com
         on_success: change
         on_failure: always
