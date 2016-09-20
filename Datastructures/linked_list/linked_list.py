@@ -100,6 +100,4 @@ if __name__ == "__main__":
     print l.search(2, True)
 
     l.delete(1, True)
-    print
-
     l.print_list()
