@@ -7,4 +7,6 @@ matrix:
       go: 1.3
 
 script:
-  - make style
+- nosetests
+after_success:
+- coveralls
