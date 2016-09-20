@@ -3,6 +3,9 @@
 Basic implementation of data structures like, stack, queue, tree etc. and some important algorithms in python and Go programming language also including various sorting algorithms.
 
 
+[![Build Status](https://travis-ci.org/kiok46/Go-Python-Swift-data-structures-and-sorting.svg?branch=master)](https://travis-ci.org/kiok46/Go-Python-Swift-data-structures-and-sorting)
+
+
 Data Structures
 ---------------
 
